@@ -4,7 +4,27 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/animal_info.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/chat.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/chat_lisk.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/chat_list.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/home.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/home_move.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/home_post.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/id_search.xml" value="0.1" />
         <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/intro_activity.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/join.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/join_check.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/main.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/main_move.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/pw_search.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/sns.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/sns_detail.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/sns_search.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/start.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/user_info.xml" value="0.1" />
+        <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/user_info_edit.xml" value="0.1" />
       </map>
     </option>
   </component>
