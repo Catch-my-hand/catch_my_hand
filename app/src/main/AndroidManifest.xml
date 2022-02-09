@@ -12,11 +12,29 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity android:name="start"/>
+        <activity android:name="login"/>
+        <activity android:name="id_search"/>
+        <activity android:name="pw_search"/>
+        <activity android:name="join_check"/>
+        <activity android:name="join"/>
+        <activity android:name="main"/>
+        <activity android:name="main_move"/>
+        <activity android:name="home"/>
+        <activity android:name="home_move"/>
+        <activity android:name="home_post"/>
+        <activity android:name="chat"/>
+        <activity android:name="chat_list"/>
+        <activity android:name="sns"/>
+        <activity android:name="sns_detail"/>
+        <activity android:name="sns_search"/>
+        <activity android:name="user_info"/>
+        <activity android:name="user_info_edit"/>
+        <activity android:name="animal_info"/>
     </application>
 
 </manifest>
