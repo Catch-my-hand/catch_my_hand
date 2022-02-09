@@ -1,4 +1,4 @@
 package com.example.catch_my_hand;
 
-public class login {
+public class Home_post_Activity {
 }

@@ -1,4 +1,4 @@
 package com.example.catch_my_hand;
 
-public class pw_search {
+public class Pw_search_Activity {
 }

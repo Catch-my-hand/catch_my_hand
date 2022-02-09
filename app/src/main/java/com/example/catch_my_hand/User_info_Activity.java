@@ -1,4 +1,4 @@
 package com.example.catch_my_hand;
 
-public class join_check {
+public class User_info_Activity {
 }

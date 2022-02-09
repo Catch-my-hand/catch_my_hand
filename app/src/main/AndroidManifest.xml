@@ -16,25 +16,24 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="start"/>
-        <activity android:name="login"/>
-        <activity android:name="id_search"/>
-        <activity android:name="pw_search"/>
-        <activity android:name="join_check"/>
-        <activity android:name="join"/>
-        <activity android:name="main"/>
-        <activity android:name="main_move"/>
-        <activity android:name="home"/>
-        <activity android:name="home_move"/>
-        <activity android:name="home_post"/>
-        <activity android:name="chat"/>
-        <activity android:name="chat_list"/>
-        <activity android:name="sns"/>
-        <activity android:name="sns_detail"/>
-        <activity android:name="sns_search"/>
-        <activity android:name="user_info"/>
-        <activity android:name="user_info_edit"/>
-        <activity android:name="animal_info"/>
+        <activity android:name=".StartActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".Id_search_Activity"/>
+        <activity android:name=".Pw_search_Activity"/>
+        <activity android:name=".Join_check_Activity"/>
+        <activity android:name=".JoinActivity"/>
+        <activity android:name=".Main_move_Activity"/>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".Home_move_Activity"/>
+        <activity android:name=".Home_post_Activity"/>
+        <activity android:name=".ChatActivity"/>
+        <activity android:name=".Chat_list_Activity"/>
+        <activity android:name=".SNS_Activity"/>
+        <activity android:name=".SNS_detail_Activity"/>
+        <activity android:name=".SNS_search_Activity"/>
+        <activity android:name=".User_info_Activity"/>
+        <activity android:name=".User_info_edit_Activity"/>
+        <activity android:name=".Animal_info_Activity"/>
     </application>
 
 </manifest>

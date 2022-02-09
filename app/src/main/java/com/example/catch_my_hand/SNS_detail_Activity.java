@@ -1,4 +1,4 @@
 package com.example.catch_my_hand;
 
-public class id_search {
+public class SNS_detail_Activity {
 }

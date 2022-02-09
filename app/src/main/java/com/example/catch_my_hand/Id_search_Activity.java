@@ -1,4 +1,4 @@
 package com.example.catch_my_hand;
 
-public class chat_list {
+public class Id_search_Activity {
 }

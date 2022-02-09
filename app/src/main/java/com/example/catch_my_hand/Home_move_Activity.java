@@ -1,4 +1,4 @@
 package com.example.catch_my_hand;
 
-public class animal_info {
+public class Home_move_Activity {
 }
