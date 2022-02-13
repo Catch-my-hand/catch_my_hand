@@ -82,7 +82,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="로그인"
-        android:layout_gravity="center">
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white">
     </Button>
 
     <Button
@@ -90,13 +92,17 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="회원가입"
-        android:layout_gravity="center">
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:backgroundTint="@drawable/solid_button">
     </Button>
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="아이디 / 비밀번호 찾기"
-        android:layout_gravity="right"></TextView>
+        android:textColor="@color/black"
+        android:layout_gravity="right"
+        android:backgroundTint="#F9EBFF"></Button>
 
 </LinearLayout>
