@@ -39,36 +39,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_weight="0"
+            android:layout_weight="2"
             android:text="아이디">
         </TextView>
 
         <EditText
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="8"
             >
         </EditText>
 
     </LinearLayout>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        >
-    </EditText>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="로그인">
-    </Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="회원가입">
-    </Button>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,10 +62,41 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="5"
             android:gravity="center"
-            android:text="아이디 / 비밀번호 찾기"></TextView>
+            android:layout_weight="1.7"
+            android:text="비밀번호">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="8.3"
+            >
+        </EditText>
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="로그인"
+        android:layout_gravity="center">
+    </Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="회원가입"
+        android:layout_gravity="center">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디 / 비밀번호 찾기"
+        android:layout_gravity="right"></TextView>
 
 </LinearLayout>
