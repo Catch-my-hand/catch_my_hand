@@ -1,6 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9EBFF"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="378dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="100dp"
+        android:text="아이디 / 비밀번호 찾기"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="아이디"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="비밀번호"
+            android:textColor="@color/black"></Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="15dp"
+        android:text="등록된 아이디로 찾기"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="1dp"
+        android:text="아이디를 통해 인증 후 비밀번호를 찾아주세요."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="48dp"
+        android:gravity="center"></EditText>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="48dp"
+        android:gravity="center"></EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"></EditText>
+
+        <EditText
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"></EditText>
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"></EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp"
+            android:backgroundTint="@color/black"
+            android:text="인증번호 받기"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"></EditText>
+
+    <Button
+        android:layout_width="332dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:text="다음"
+        android:textSize="19dp"
+        android:textColor="@color/white"></Button>
+
+
+</LinearLayout>
