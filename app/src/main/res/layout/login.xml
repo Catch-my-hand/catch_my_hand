@@ -40,17 +40,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_weight="2"
+            android:layout_weight="7.6"
             android:text="아이디">
         </TextView>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="282dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_weight="8"
-            >
-        </EditText>
+            android:gravity="center"></EditText>
 
     </LinearLayout>
 
@@ -70,12 +68,12 @@
         </TextView>
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_weight="8.3"
-            >
-        </EditText>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="8.3"
+        >
+    </EditText>
 
     </LinearLayout>
 
