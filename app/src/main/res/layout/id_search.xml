@@ -25,6 +25,7 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/btn1"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
@@ -33,6 +34,7 @@
         </Button>
 
         <Button
+            android:id="@+id/btn2"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
@@ -98,6 +100,7 @@
         </EditText>
 
         <Button
+            android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginLeft="1dp"
@@ -115,6 +118,7 @@
     </EditText>
 
     <Button
+        android:id="@+id/btn4"
         android:layout_width="332dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
