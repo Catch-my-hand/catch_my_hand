@@ -39,7 +39,26 @@ public class LoginActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn2 = (Button) findViewById(R.id.btn2);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Join_check_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn3 = (Button) findViewById(R.id.btn3);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                startActivity(intent);
             }
         });
     }
