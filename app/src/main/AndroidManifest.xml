@@ -18,7 +18,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LoginActivity"/>
         <activity android:name=".Id_search_Activity"/>
         <activity android:name=".Pw_search_Activity"/>
         <activity android:name=".Join_check_Activity"/>
