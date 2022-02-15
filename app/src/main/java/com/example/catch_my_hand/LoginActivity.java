@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         Button btn2 = (Button) findViewById(R.id.btn2);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Join_check_Activity.class);
@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         Button btn3 = (Button) findViewById(R.id.btn3);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
