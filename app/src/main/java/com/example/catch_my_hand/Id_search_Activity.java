@@ -20,7 +20,7 @@ public class Id_search_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+        setContentView(R.layout.id_search);
 
         TextView textView = (TextView)findViewById(R.id.textView1);
 
