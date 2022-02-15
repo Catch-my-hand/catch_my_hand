@@ -27,8 +27,8 @@
         <entry key="..\:/Users/kj94g/AndroidStudioProjects/catch_my_hand/app/src/main/res/layout/user_info_edit.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/solid_button.xml" value="0.128" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/id_search.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/id_search.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/pw_search.xml" value="0.25" />
       </map>
     </option>

@@ -85,7 +85,7 @@
         <EditText
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp">
+            android:layout_marginLeft="30dp">
         </EditText>
 
         <EditText
@@ -115,7 +115,7 @@
         android:layout_width="335dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="49dp"
         android:gravity="center">
     </EditText>
 
@@ -123,7 +123,7 @@
         android:id="@+id/btn4"
         android:layout_width="332dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="49dp"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/black"
         android:text="다음"
