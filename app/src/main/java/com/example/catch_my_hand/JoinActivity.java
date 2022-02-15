@@ -1,4 +1,15 @@
 package com.example.catch_my_hand;
 
-public class JoinActivity {
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class JoinActivity extends AppCompatActivity{
+
+    @Override
+    protected void onCreate(@Nullable Bundle saveInstanceState) {
+        super.onCreate(saveInstanceState);
+        setContentView(R.layout.join);
+    }
 }

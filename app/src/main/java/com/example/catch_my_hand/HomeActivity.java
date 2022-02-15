@@ -1,4 +1,15 @@
 package com.example.catch_my_hand;
 
-public class HomeActivity {
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class HomeActivity extends AppCompatActivity{
+
+    @Override
+    protected void onCreate(@Nullable Bundle saveInstanceState) {
+        super.onCreate(saveInstanceState);
+        setContentView(R.layout.home);
+    }
 }

@@ -5,11 +5,11 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Animal_info_Activity {
+public class Animal_info_Activity extends AppCompatActivity{
 
     @Override
-    proteccted void onCreate(@Nullable Bundle saveInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(@Nullable Bundle saveInstanceState) {
+        super.onCreate(saveInstanceState);
         setContentView(R.layout.animal_info);
     }
 }
