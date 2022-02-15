@@ -26,18 +26,22 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/btn1"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:text="아이디"
-            android:textColor="@color/white"></Button>
+            android:textColor="@color/white">
+        </Button>
 
         <Button
+            android:id="@+id/btn2"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             android:text="비밀번호"
-            android:textColor="@color/black"></Button>
+            android:textColor="@color/black">
+        </Button>
     </LinearLayout>
 
     <TextView
@@ -66,14 +70,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="48dp"
-        android:gravity="center"></EditText>
+        android:gravity="center">
+    </EditText>
 
     <EditText
         android:layout_width="335dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="48dp"
-        android:gravity="center"></EditText>
+        android:gravity="center">
+    </EditText>
 
 
     <LinearLayout
@@ -86,25 +92,30 @@
         <EditText
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"></EditText>
+            android:layout_marginLeft="20dp">
+        </EditText>
 
         <EditText
             android:layout_width="73dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"></EditText>
+            android:layout_marginLeft="0dp">
+        </EditText>
 
         <EditText
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"></EditText>
+            android:layout_marginLeft="0dp">
+        </EditText>
 
         <Button
+            android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginLeft="1dp"
             android:backgroundTint="@color/black"
             android:text="인증번호 받기"
-            android:textColor="@color/white"></Button>
+            android:textColor="@color/white">
+        </Button>
     </LinearLayout>
 
     <EditText
@@ -112,9 +123,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="50dp"
-        android:gravity="center"></EditText>
+        android:gravity="center">
+    </EditText>
 
     <Button
+        android:id="@+id/btn4"
         android:layout_width="332dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
@@ -122,7 +135,8 @@
         android:backgroundTint="@color/black"
         android:text="다음"
         android:textSize="19dp"
-        android:textColor="@color/white"></Button>
+        android:textColor="@color/white">
+    </Button>
 
 
 </LinearLayout>
