@@ -42,6 +42,7 @@
             android:layout_marginLeft="20dp"></EditText>
 
         <Button
+            android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginLeft="1dp"
@@ -145,6 +146,7 @@
             android:layout_marginLeft="20dp"></EditText>
 
         <Button
+            android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginLeft="1dp"
@@ -179,6 +181,7 @@
 
 
     <Button
+        android:id="@+id/btn3"
         android:layout_width="332dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
