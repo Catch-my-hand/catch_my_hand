@@ -33,7 +33,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/animal_info.xml" value="0.1" />
         <entry key="app/src/main/res/layout/id_search.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/join_check.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/main.xml" value="0.24583333333333332" />
         <entry key="app/src/main/res/layout/pw_search.xml" value="0.1" />
       </map>
