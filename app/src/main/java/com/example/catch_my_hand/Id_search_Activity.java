@@ -45,16 +45,16 @@ public class Id_search_Activity extends AppCompatActivity {
         });
 
         Button btn2 = (Button) findViewById(R.id.btn2);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Pw_search_Activity.class);
                 startActivity(intent);
             }
         });
 
         Button btn3 = (Button) findViewById(R.id.btn3);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
@@ -63,7 +63,7 @@ public class Id_search_Activity extends AppCompatActivity {
         });
 
         Button btn4 = (Button) findViewById(R.id.btn4);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
