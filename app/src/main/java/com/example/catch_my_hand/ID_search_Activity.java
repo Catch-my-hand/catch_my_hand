@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Id_search_Activity extends AppCompatActivity {
+public class ID_search_Activity extends AppCompatActivity {
     Button btn1;
     Button btn2;
     Button btn3;
@@ -39,7 +39,7 @@ public class Id_search_Activity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ID_search_Activity.class);
                 startActivity(intent);
             }
         });
@@ -48,7 +48,7 @@ public class Id_search_Activity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Pw_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), PW_search_Activity.class);
                 startActivity(intent);
             }
         });
@@ -57,7 +57,7 @@ public class Id_search_Activity extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ID_search_Activity.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +66,7 @@ public class Id_search_Activity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ID_find_Activity.class);
                 startActivity(intent);
             }
         });

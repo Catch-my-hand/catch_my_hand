@@ -57,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ID_search_Activity.class);
                 startActivity(intent);
             }
         });

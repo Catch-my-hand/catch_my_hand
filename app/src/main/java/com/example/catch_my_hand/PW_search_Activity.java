@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Pw_search_Activity extends AppCompatActivity{
+public class PW_search_Activity extends AppCompatActivity{
     Button btn1;
     Button btn2;
     Button btn3;
@@ -40,7 +40,7 @@ public class Pw_search_Activity extends AppCompatActivity{
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ID_search_Activity.class);
                 startActivity(intent);
             }
         });
@@ -49,7 +49,7 @@ public class Pw_search_Activity extends AppCompatActivity{
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Pw_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), PW_search_Activity.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class Pw_search_Activity extends AppCompatActivity{
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ID_search_Activity.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +67,7 @@ public class Pw_search_Activity extends AppCompatActivity{
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Id_search_Activity.class);
+                Intent intent = new Intent(getApplicationContext(), PW_find_Activity.class);
                 startActivity(intent);
             }
         });
