@@ -39,7 +39,8 @@
         <EditText
             android:layout_width="184dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"></EditText>
+            android:layout_marginLeft="20dp">
+        </EditText>
 
         <Button
             android:id="@+id/btn1"
@@ -48,7 +49,9 @@
             android:layout_marginLeft="1dp"
             android:backgroundTint="@color/black"
             android:text="중복 확인"
-            android:textColor="@color/white"></Button>
+            android:textColor="@color/white">
+        </Button>
+
     </LinearLayout>
 
     <LinearLayout
@@ -95,7 +98,8 @@
         <EditText
             android:layout_width="244dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"></EditText>
+            android:layout_marginLeft="20dp">
+        </EditText>
 
     </LinearLayout>
 
@@ -119,7 +123,8 @@
         <EditText
             android:layout_width="268dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"></EditText>
+            android:layout_marginLeft="20dp">
+        </EditText>
 
     </LinearLayout>
 
@@ -143,7 +148,8 @@
         <EditText
             android:layout_width="183dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"></EditText>
+            android:layout_marginLeft="20dp">
+        </EditText>
 
         <Button
             android:id="@+id/btn2"
@@ -152,7 +158,9 @@
             android:layout_marginLeft="1dp"
             android:backgroundTint="@color/black"
             android:text="중복 확인"
-            android:textColor="@color/white"></Button>
+            android:textColor="@color/white">
+        </Button>
+
     </LinearLayout>
 
     <LinearLayout
@@ -175,7 +183,8 @@
         <EditText
             android:layout_width="264dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"></EditText>
+            android:layout_marginLeft="20dp">
+        </EditText>
 
     </LinearLayout>
 
@@ -189,7 +198,8 @@
         android:backgroundTint="@color/black"
         android:text="회원가입"
         android:textSize="18dp"
-        android:textColor="@color/white"></Button>
+        android:textColor="@color/white">
+    </Button>
 
 
 </LinearLayout>
